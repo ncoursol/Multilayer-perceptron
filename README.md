@@ -60,11 +60,11 @@ Install all the requirements:
 The multilayer perceptron needs to be trained before it can make predictions.
 Training will create a 'weights.npy' file containing the model's training weights, which when run in the prediction program will create a file named results.csv representing a table of predictions by patient.
 
-Run training on the entire dataset:
+Run training on the dataset:
 
   `python3 train.py data.csv`
 
-Run prediction on the entire dataset:
+Run prediction on the dataset:
 
   `python3 predict.py data.csv`
 
@@ -77,6 +77,9 @@ Run training with 1000 iterations, 2 hidden layers of 15 neurons and verbose ena
 
   `python3 train.py -i 1000 -l 15 15 -v data.csv`
   ![test2](pics/test2.png)
+  
+  > [!WARNING]
+  > Here you can see an example of overfitting due to too many iterations.
 
 Run training with 20 iterations, 2 hidden layers of 15 neurons, with mini-batch and verbose enable:
 
