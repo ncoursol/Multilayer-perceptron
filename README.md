@@ -71,17 +71,17 @@ Run prediction on the entire dataset:
 Run training with 100 iterations, 3 hidden layers of 20 neurons, with mini-batch and verbose enable:
 
   `python3 train.py -i 100 -l 20 20 20 -b -v data.csv`
-  [test1](pics/test.png)
+  ![test1](pics/test.png)
 
 Run training with 1000 iterations, 2 hidden layers of 15 neurons and verbose enable:
 
   `python3 train.py -i 1000 -l 15 15 -v data.csv`
-  [test2](pics/test2.png)
+  ![test2](pics/test2.png)
 
 Run training with 20 iterations, 2 hidden layers of 15 neurons, with mini-batch and verbose enable:
 
   `python3 train.py -i 20 -l 15 15 -v -b data.csv`
-  [test3](pics/test3.png)
+  ![test3](pics/test3.png)
 
-  [pred](pics/predict.png)
+  ![pred](pics/predict.png)
 
